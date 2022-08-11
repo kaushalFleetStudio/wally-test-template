@@ -1,0 +1,232 @@
+body {
+    font-family: Montserrat;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.banner-top {
+
+}
+
+.banner-text-bottom-container {
+    display: flex;
+    padding: 10px;
+    background-color: #c63e28;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 9.2px 9.2px 21.3px 5.7px rgba(37, 35, 35, 0.11);
+}
+
+.banner-bottom-text {
+    margin-right: 18px;
+}
+
+.banner-bottom-text .text {
+    font-size: 31px;
+    font-weight: 500;
+    letter-spacing: 3.1px;
+
+}
+
+.banner-text-bottom-button .banner-bottom-button {
+    padding: 8px 30px;
+    border-radius: 30px;
+    border: solid 2px #fff;
+    
+}
+
+.benefits-container {
+    padding: 65px 0;
+}
+
+.benefits-heading {
+    text-align: center;
+
+}
+
+.benefits-heading .heading-title {
+    font-size: 43px;
+    font-weight: 600;
+    letter-spacing: 1.29px;
+    color: #2c3350;
+}
+
+.benefits-heading .heading-description {
+    font-size: 16px;
+    line-height: 2.5;
+    letter-spacing: normal;
+    color: #4d535f;
+}
+
+.benefits-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.benefits-items-container .benefits-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 24.333333%;
+    text-align: center;
+}
+
+.benefits-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.benefits-item .benefit-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: 0.4px;
+    color: #2c3350;
+    margin: 22px 0 10px;
+    text-transform: uppercase;
+
+}
+
+.benefits-item .benefit-description {
+    font-size: 16px;
+    color: #2c3350;
+}
+
+.see-in-action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.see-in-action-container .see-in-action-box {
+    flex-basis: 33.333333%;
+}
+
+.see-in-action-box .see-in-action-title .title-text {
+    font-size: 43px;
+    font-weight: 600;
+    line-height: 0.93;
+    letter-spacing: 1.29px;
+    color: #2c3350;
+}
+
+.see-in-action-box .see-in-action-description {
+    font-size: 16px;
+    color: #4d535f;
+    margin: 30px 0;
+}
+
+.see-in-action-button .example-button {
+    padding: 8px 16px;
+    border-radius: 30px;
+    border: solid 2px #46579c;
+    color: #46579c;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.44px;
+}
+
+.subscribe-to-newsletter {
+    padding: 50px;
+    background-color: #46579c;
+}
+
+.subscribe-to-newsletter-wrapper {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.subscribe-to-newsletter-wrapper .section-heading .heading-text {
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 1.14px;
+    color: #fff;
+
+}
+
+.subscribe-to-newsletter-wrapper .section-heading {
+    margin-right: 16px;
+}
+
+.subscribe-to-newsletter-wrapper .section-button .email-address-button {
+    border-radius: 38px;
+    border: solid 2px #fff;
+    padding: 2px 50px 6px;
+    font-size: 26px;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .subscribe-to-newsletter-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscribe-to-newsletter-wrapper .section-heading {
+        margin-right: 0;
+        margin-bottom: 10px;
+
+    }
+
+    .subscribe-to-newsletter-wrapper .section-heading .heading-text {
+        font-size: 24px;    
+    }
+
+    .subscribe-to-newsletter-wrapper .section-button .email-address-button {
+        border-radius: 16px;
+        padding: 2px 12px 5px;
+        font-size: 15px;
+    }
+
+    .benefits-heading .heading-title {
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+
+    .banner-text-bottom-container {
+        flex-direction: column;
+     }
+
+    .banner-bottom-text {
+        margin-right: 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    .banner-bottom-text .text {
+        font-size: 24px;  
+    
+    }
+    
+    .banner-text-bottom-button .banner-bottom-button {
+        border-radius: 16px;
+        padding: 2px 12px 5px;
+        font-size: 15px;
+        
+    }
+}
+
+
+.carousel-caption {
+    text-align: -webkit-right;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.carousel-lable {
+    color: #2c3350;
+    width: 30px;
+    text-align: right;
+}
+
+.WCAG {
+    margin: 20px 0;
+}
+
